@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+} 
+
+.grid-container{
+                display: grid;
+            
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 10px;
+                height: 40vw;
+}
+
+
+.grid-container div:nth-child(1){
+    grid-row: auto / span 2; 
+}
+.columns{
+    border: solid 5px black;
+    border-radius: 15px;
+
+    box-shadow: 1px 4px 10px 0px rgba(124, 32, 66, 0.5);
+
+}
+.grid-container img{
+    width: 100%;
+border-radius:15px ;
+}
+
+
+button{
+    padding: 5px;
+    background-color: rgb(255, 127, 210);
+    width: 100%;
+}
+
+
+
+
+
